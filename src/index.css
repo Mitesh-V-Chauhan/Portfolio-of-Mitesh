@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @layer utilities {
+    .glow-text {
+        /* text-shadow: 0 0 0px #fff,0 0 2px #fff,0 0 5px #fff,0 0 20px #228dff,0 0 5px #228dff,0 0 20px #228dff; */
+    
+
+[data-scroll-container] {
+    overflow: hidden;
+    }
+    
+[data-scroll-section] {
+    position: relative;
+    }        
+
+
+    
