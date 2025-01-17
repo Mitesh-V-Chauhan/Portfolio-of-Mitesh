@@ -2,14 +2,17 @@ import React from 'react'
 
 const contact = () => {
   return (
-    <div className="w-full h-screen bg-black py-20 px-20 flex rounded-tl-3xl rounded-tr-3xl">
+    <div className="w-full h-screen bg-[#754E1A] py-20 px-20 flex rounded-tl-3xl rounded-tr-3xl">
         <div className="flex flex-col h-full justify-between w-1/2 font-['Founders_Grotesk_X-Condensed']"> 
         <div className="heading">
             <h1 className="text-[10vw] uppercase leading-none -mb-10 hover:text-orange-400 hover:scale-110" style={{ fontWeight: 550 , wordSpacing: '10px'}}>CONNECT</h1>
             <h1 className="text-[10vw] uppercase leading-none -mb-10 hover:text-orange-400 hover:scale-110" style={{ fontWeight: 550 , wordSpacing: '10px'}}>With Me</h1>
         </div>
         <div>
-            <h3 className="font-['Neue_Montreal'] hover:bg-[url()]">MITESH CHAUHAN</h3>
+            {/* <h3 className="font-['Neue_Montreal'] hover:bg-[url()]">Designed and Developed by: MITESH CHAUHAN</h3> */}
+            <p class="text-sm text-[20px] font-light font-['Neue_Montreal']">
+              &copy; 2025 Designed and Developed by <span class="font-bold text-[#FFF]">Mitesh Chauhan</span>.
+            </p>
         </div>
             
         </div>
@@ -18,7 +21,7 @@ const contact = () => {
         <div className="heading">
             <h1 className="text-[10vw] uppercase leading-none -mb-10 hover:text-orange-300 hover:scale-110" style={{ fontWeight: 550 }}>HERE</h1>
         </div>
-        <div className="flex flex-col gap-5 bg-black pt-30 font-['Neue_Montreal']">
+        <div className="flex flex-col gap-5  pt-30 font-['Neue_Montreal']">
       {/* Instagram */}
       <a
         href="https://www.instagram.com/mitesh_.07?igsh=MWpkN25nMGVncnBhaw=="

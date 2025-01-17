@@ -79,6 +79,7 @@
 // // };
 
 // // export default App;
+
 import React, { useRef, useState, useEffect } from 'react';
 import { useSpring, animated } from '@react-spring/web';
 import Navbar from './components/Navbar';
@@ -96,14 +97,13 @@ const App = () => {
   const scrollRef = useRef(null);
   const [scrollTop, setScrollTop] = useState(0);
 
-  // Update scrollTop when scrolling
   const handleScroll = () => {
     if (scrollRef.current) {
       setScrollTop(scrollRef.current.scrollTop);
     }
   };
 
-  // Add scroll event listener on mount and remove it on unmount
+
   useEffect(() => {
     const scrollElement = scrollRef.current;
     scrollElement.addEventListener('scroll', handleScroll);
@@ -112,40 +112,44 @@ const App = () => {
     };
   }, []);
 
-  // Scroll animations for each section (you can change the speed here)
   const scrollAnim1 = useSpring({
     transform: `translateY(${scrollTop * 0.4}px)`,
-    config: { tension: 100, friction: 5 },
+    config: { tension: 80, friction: 10 },
   });
 
   const scrollAnim2 = useSpring({
     transform: `translateY(${scrollTop * 0.5}px)`,
-    config: { tension: 100, friction: 5 },
+    config: { tension: 80, friction: 10 },
   });
 
   const scrollAnim3 = useSpring({
     transform: `translateY(${scrollTop * 0.3}px)`,
-    config: { tension: 100, friction: 5 },
+    config: { tension: 80, friction: 10 },
   });
 
   const scrollAnim4 = useSpring({
     transform: `translateY(${scrollTop * 0.28}px)`,
-    config: { tension: 100, friction: 5 },
+    config: { tension: 80, friction: 10 },
   });
   
   const scrollAnim5 = useSpring({
     transform: `translateY(${scrollTop * 0.25}px)`,
-    config: { tension: 100, friction: 5 },
+    config: { tension: 80, friction: 10 },
   });
 
   const scrollAnim6 = useSpring({
     transform: `translateY(${scrollTop * 0.22}px)`,
-    config: { tension: 100, friction: 5 },
+    config: { tension: 80, friction: 10 },
   });
 
   const scrollAnim7 = useSpring({
     transform: `translateY(${scrollTop * 0.18}px)`,
-    config: { tension: 100, friction: 5 },
+    config: { tension: 80, friction: 10 },
+  });
+
+  const scrollAnim8 = useSpring({
+    transform: `translateY(${scrollTop * 0.15}px)`,
+    config: { tension: 80, friction: 10 },
   });
   
 
@@ -155,7 +159,7 @@ const App = () => {
       <div className="shadow-[6px_5px_0px_#54473F]" >
         <Navbar />
       </div>
-      {/* Sections with controlled scroll speed */}
+   
       <animated.div className="shadow-[6px_5px_0px_#54473F]" style={scrollAnim2}>
         <LandingPage />
       </animated.div>
@@ -164,7 +168,7 @@ const App = () => {
         <Marquee />
       </animated.div>
 
-      <animated.div className="shadow-[6px_5px_0px_#54473F]" style={scrollAnim5}>
+      <animated.div  id="aboutme" className="shadow-[6px_5px_0px_#54473F]" style={scrollAnim5}>
         <About />
       </animated.div>
 
@@ -172,15 +176,15 @@ const App = () => {
         <Eyes />
       </animated.div>
 
-      <animated.div className="shadow-[6px_5px_0px_#54473F]" style={scrollAnim6}>
+      <animated.div id="skills" className="shadow-[6px_5px_0px_#54473F]" style={scrollAnim6}>
         <Skills />
       </animated.div>
 
-      <animated.div className="shadow-[6px_5px_0px_#54473F]" style={scrollAnim7}>
+      <animated.div id="projects" className="shadow-[6px_5px_0px_#54473F]" style={scrollAnim7}>
         <Projects />
       </animated.div>
 
-      <animated.div className="shadow-[6px_5px_0px_#54473F]" style={scrollAnim6}>
+      <animated.div id="contactme"className="shadow-[6px_5px_0px_#54473F]" style={scrollAnim8}>
         <Contact />
       </animated.div>
     </div>

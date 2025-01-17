@@ -114,14 +114,14 @@ const Navbar = () => {
       <div className="logo px-10 relative group">
         {/* Default and Hover Images */}
         <img
-          src="./mitesh.jpeg"
+          src="./NewLogo.jpeg"
           alt="logo"
-          className="h-12 w-12 object-cover rounded-full overflow-hidden transition-all duration-300 ease-in-out group-hover:scale-110"
+          className="h-12 w-12 object-cover rounded-full overflow-hidden transition-all duration-300 ease-in-out group-hover:scale-110 hover:border-2 border-[#493628]"
         />
     
       </div>
       <div className="links flex gap-40 text-2xl">
-        {/* Navbar Links with Smooth Scroll */}
+      
         {["Skills", "Projects", "About Me", "Contact Me"].map((item, index) => (
           <a
             key={index}
