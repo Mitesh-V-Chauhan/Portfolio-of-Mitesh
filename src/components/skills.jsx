@@ -31,7 +31,7 @@ const skills = () => {
               ))}
               </h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../c.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="c.svg" alt="" />
                 </div>
                 
               </motion.div>
@@ -45,7 +45,7 @@ const skills = () => {
               ))}
               </h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../python.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="python.svg" alt="" />
                 </div>
               </motion.div>
 
@@ -58,7 +58,7 @@ const skills = () => {
               ))}
               </h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../html.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="html.svg" alt="" />
                 </div>
               </motion.div>
 
@@ -71,7 +71,7 @@ const skills = () => {
               ))}
               </h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../css.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="css.svg" alt="" />
                 </div>
               </motion.div>
 
@@ -84,7 +84,7 @@ const skills = () => {
               ))}
               </h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../javascript.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="javascript.svg" alt="" />
                 </div>
               </motion.div>
 
@@ -97,7 +97,7 @@ const skills = () => {
               ))}
               </h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../boostrap.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="boostrap.svg" alt="" />
                 </div>
               </motion.div>
 
@@ -112,7 +112,7 @@ const skills = () => {
                     </motion.span>
               ))}</h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../git.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="git.svg" alt="" />
                 </div>
               </motion.div>
 
@@ -123,7 +123,7 @@ const skills = () => {
                     </motion.span>
               ))}</h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../react.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="react.svg" alt="" />
                 </div>
               </motion.div>
 
@@ -134,7 +134,7 @@ const skills = () => {
                     </motion.span>
               ))}</h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../jquery.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="jquery.svg" alt="" />
                 </div>
               </motion.div>
 
@@ -145,7 +145,7 @@ const skills = () => {
                     </motion.span>
               ))}</h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../tailwind-svgrepo-com.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="tailwind-svgrepo-com.svg" alt="" />
                 </div>
               </motion.div>
 
@@ -156,7 +156,7 @@ const skills = () => {
                     </motion.span>
               ))}</h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="../github-mark.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="github-mark.svg" alt="" />
                 </div>
               </motion.div>
 

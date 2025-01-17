@@ -203,6 +203,7 @@
 
 import React from 'react';
 
+
 const Projects = () => {
   return (
     <div className="bg-[#bc8653] rounded-tl-3xl rounded-tr-3xl">
@@ -223,7 +224,7 @@ const Projects = () => {
 
             <div className="card-side back w-full h-full absolute top-0 left-0 rotate-y-180 backface-hidden">
               <a href="https://mitesh-v-chauhan.github.io/SidCup-Clone/" target="_blank"><img
-                src="/frontend1.png"
+                src="frontend1.png"
                 alt="Frontend Example"
                 className="rounded-xl w-full h-full object-cover shadow-lg"
               /></a>
@@ -241,7 +242,7 @@ const Projects = () => {
 
             <div className="card-side back w-full h-full absolute top-0 left-0 rotate-y-180 backface-hidden">
               <a href=" https://mitesh-v-chauhan.github.io/Simon_Game/" target="_blank"><img
-                src="/simongame.png"
+                src="simongame.png"
                 alt="Simon Game Example"
                 className="rounded-xl w-full h-full object-cover shadow-lg"
               /></a>
@@ -259,7 +260,7 @@ const Projects = () => {
 
             <div className="card-side back w-full h-full absolute top-0 left-0 rotate-y-180 backface-hidden">
               <a href="https://mitesh-v-chauhan.github.io/Complete-DrumKit/" target="_blank"></a><img
-                src="/drumkit.png"
+                src="drumkit.png"
                 alt="Drumkit Example"
                 className="rounded-xl w-full h-full object-cover shadow-lg"
               />
