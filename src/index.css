@@ -1,18 +1,144 @@
+/* Import Tailwind base, components, and utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @layer utilities {
-    .glow-text {
-        /* text-shadow: 0 0 0px #fff,0 0 2px #fff,0 0 5px #fff,0 0 20px #228dff,0 0 5px #228dff,0 0 20px #228dff; */
-    
 
-[data-scroll-container] {
-    overflow: hidden;
-    }
-    
+/* General body styling */
+body {
+  color: white; /* Default text color */
+  background-color: black; /* Background color */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Scroll container for sections */
+.scroll-container {
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scroll-snap-type: y mandatory; /* Smooth scroll snapping */
+  -webkit-overflow-scrolling: touch; /* Mobile-friendly scrolling */
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+}
+
+/* Section styling */
 [data-scroll-section] {
-    position: relative;
-    }        
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
+.full-screen {
+  min-height: 100vh; /* Full screen sections */
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start; /* Snap to section */
+}
 
-    
+/* Flip card container */
+.cardcontainer {
+  perspective: 150rem; /* Add 3D perspective */
+}
+
+/* Card styling */
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d; /* Enable 3D transformation */
+  transition: transform 0.5s ease-in-out; /* Smooth flip */
+}
+
+/* Hover effect to flip the card */
+.card:hover {
+  transform: rotateY(180deg); /* Flip on hover */
+}
+
+/* Card sides */
+.card-side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide the back when not flipped */
+  border-radius: 1rem; /* Rounded corners */
+}
+
+/* Front side (text side visible by default) */
+.card-side.front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c69363; /* Background color for text side */
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+/* Back side (image visible after hover) */
+.card-side.back {
+  transform: rotateY(180deg); /* Start rotated */
+  background-color: #333; /* Optional background before image loads */
+}
+
+/* Image styling for back */
+.card-side.back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem; /* Match the card's rounded corners */
+}
+
+/* Optional glow effect for text */
+.glow-text {
+  text-shadow: 0 0 0px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 20px #228dff, 0 0 5px #228dff, 0 0 20px #228dff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cardcontainer {
+    height: 50vh; /* Reduce card height for smaller screens */
+  }
+  .card {
+    width: 90%; /* Adjust width */
+    margin: 0 auto; /* Center the card */
+  }
+  .card-side.front,
+  .card-side.back {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    padding: 0.5rem;
+  }
+}
+
+/* Disable flip for cards with 'no-flip' class */
+.card.no-flip {
+  transform: none; /* No transformation */
+  transition: none; /* No animation */
+}
+
+/* Ensure the back side is not visible */
+.card.no-flip .card-side.back {
+  transform: none;
+}
+
+/* Optional: Hide the back side */
+.card.no-flip:hover .card-side.back {
+  display: none; /* Hide back content on hover */
+}

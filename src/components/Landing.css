@@ -1,0 +1,19 @@
+/* Landing.css */
+.textstructure h2,
+.textstructure h1 {
+  transition: all 0.3s ease-in-out;
+}
+
+.textstructure h1:hover {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+.textstructure h2:hover {
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  background-clip: text;
+  color: transparent;
+}
+
+.cursor-pointer:hover {
+  transform: scale(1.1);
+}
