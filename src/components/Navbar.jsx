@@ -114,7 +114,7 @@ const Navbar = () => {
       <div className="logo px-10 relative group">
       
         <img
-          src="NewLogo.jpeg"
+          src="public/NewLogo.jpeg"
           alt="logo"
           className="h-12 w-12 object-cover rounded-full overflow-hidden transition-all duration-300 ease-in-out group-hover:scale-110 hover:border-2 border-[#493628]"
         />
