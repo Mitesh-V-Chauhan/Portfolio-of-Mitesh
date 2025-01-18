@@ -145,7 +145,7 @@ const skills = () => {
                     </motion.span>
               ))}</h1>
                 <div className="card1 shadow-[6px_5px_0px_#54473F]  #54473F w-full h-full rounded-xl overflow-hidden bg-[#FFDAB5] border-[2px] border-black">
-                  <img className="w-full h-full bg-cover" src="tailwind-svgrepo-com.svg" alt="" />
+                  <img className="w-full h-full bg-cover" src="../../tailwind-svgrepo-com.svg" alt="" />
                 </div>
               </motion.div>
 
