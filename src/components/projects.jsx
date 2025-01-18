@@ -224,7 +224,7 @@ const Projects = () => {
 
             <div className="card-side back w-full h-full absolute top-0 left-0 rotate-y-180 backface-hidden">
               <a href="https://mitesh-v-chauhan.github.io/SidCup-Clone/" target="_blank"><img
-                src="frontend1.png"
+                src="src/assets/frontend1.png"
                 alt="Frontend Example"
                 className="rounded-xl w-full h-full object-cover shadow-lg"
               /></a>
@@ -242,7 +242,7 @@ const Projects = () => {
 
             <div className="card-side back w-full h-full absolute top-0 left-0 rotate-y-180 backface-hidden">
               <a href=" https://mitesh-v-chauhan.github.io/Simon_Game/" target="_blank"><img
-                src="simongame.png"
+                src="src/assets/simongame.png"
                 alt="Simon Game Example"
                 className="rounded-xl w-full h-full object-cover shadow-lg"
               /></a>
@@ -259,11 +259,11 @@ const Projects = () => {
             </div>
 
             <div className="card-side back w-full h-full absolute top-0 left-0 rotate-y-180 backface-hidden">
-              <a href="https://mitesh-v-chauhan.github.io/Complete-DrumKit/" target="_blank"></a><img
-                src="drumkit.png"
+              <a href="https://mitesh-v-chauhan.github.io/Complete-DrumKit/" target="_blank"><img
+                src="src/assets/drumkit.png"
                 alt="Drumkit Example"
                 className="rounded-xl w-full h-full object-cover shadow-lg"
-              />
+              /></a>
             </div>
           </div>
         </div>

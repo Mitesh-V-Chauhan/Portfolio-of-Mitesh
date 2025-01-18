@@ -112,9 +112,9 @@ const Navbar = () => {
   return (
     <div className="fixed z-[1000] w-full px-20 py-3 font-['Neue_Montreal'] flex justify-between items-center backdrop-blur-md shadow-md">
       <div className="logo px-10 relative group">
-        {/* Default and Hover Images */}
+      
         <img
-          src="./NewLogo.jpeg"
+          src="src/assets/NewLogo.jpeg"
           alt="logo"
           className="h-12 w-12 object-cover rounded-full overflow-hidden transition-all duration-300 ease-in-out group-hover:scale-110 hover:border-2 border-[#493628]"
         />

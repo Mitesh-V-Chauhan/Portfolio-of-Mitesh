@@ -48,7 +48,7 @@ const Landing = () => {
               </h1>
             </div>
             <div className="mt-15 sm:mt-15 overflow-hidden transition-all duration-300 ease-in-out hover:scale-110 rounded-full hover:shadow-[6px_5px_0px_#754E19]">
-              <img src="NewLogo.jpeg" alt="" className="w-64 h-64 sm:w-64 sm:h-64 object-cover rounded-full hover:border-4 border-[#493628]" />
+              <img src="src/assets/NewLogo.jpeg" alt="" className="w-64 h-64 sm:w-64 sm:h-64 object-cover rounded-full hover:border-4 border-[#493628]" />
             </div>
           </div>
         </div>
