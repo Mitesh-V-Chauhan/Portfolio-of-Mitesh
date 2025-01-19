@@ -2,6 +2,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* index.css or App.css */
+@import '~locomotive-scroll/dist/locomotive-scroll.css';
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url('/fonts/FoundersGrotesk-Regular.woff2') format('woff2'),
+       url('/fonts/FoundersGrotesk-Regular.woff1') format('woff');
+  font-weight: 400; /* Normal */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('/fonts/NeueMontreal-Regular.woff2') format('woff2'),
+       url('/fonts/FoundersGrotesk-Bold.woff') format('woff');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  font-display: swap;
+}
 
 /* General body styling */
 body {
@@ -25,7 +45,6 @@ body, html {
   width: 100%;
 }
 
-/* Scroll container for sections */
 .scroll-container {
   overflow-y: scroll; /* Enable vertical scrolling */
   scroll-snap-type: y mandatory; /* Smooth scroll snapping */
@@ -142,3 +161,5 @@ body, html {
 .card.no-flip:hover .card-side.back {
   display: none; /* Hide back content on hover */
 }
+
+

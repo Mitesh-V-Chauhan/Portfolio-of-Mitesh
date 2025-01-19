@@ -76,7 +76,12 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
 
   theme: {
+
     extend: {
+
+      fontFamily: {
+        grotesk: ['FoundersGrotesk', 'sans-serif'],
+      },
       // Adding custom perspective for 3D effect
       perspective: {
         '150rem': '150rem',
