@@ -7,8 +7,8 @@
 
 @font-face {
   font-family: 'FoundersGrotesk';
-  src: url('/fonts/FoundersGrotesk-Regular.woff2') format('woff2'),
-       url('/fonts/FoundersGrotesk-Regular.woff1') format('woff');
+  src: url('/fonts/AnyConv.com__FoundersGroteskXCond-Bold.woff2') format('woff2'),
+       url('/fonts/FoundersGroteskXCond-Bold.woff') format('woff');
   font-weight: 400; /* Normal */
   font-style: normal;
   font-display: swap;
@@ -16,9 +16,9 @@
 
 @font-face {
   font-family: 'NeueMontreal';
-  src: url('/fonts/NeueMontreal-Regular.woff2') format('woff2'),
-       url('/fonts/FoundersGrotesk-Bold.woff') format('woff');
-  font-weight: 700; /* Bold */
+  src: url('/fonts/AnyConv.com__TestFoundersGroteskCondensed-Regular-BF66175e96ee7bd.woff2') format('woff2'),
+       url('/fonts/NeueMontreal-Regular (1).woff') format('woff');
+  font-weight: 200; /* Bold */
   font-style: normal;
   font-display: swap;
 }

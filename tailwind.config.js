@@ -81,6 +81,7 @@ module.exports = {
 
       fontFamily: {
         grotesk: ['FoundersGrotesk', 'sans-serif'],
+        montreal: ['NeueMontreal', 'sans-serif'],
       },
       // Adding custom perspective for 3D effect
       perspective: {
@@ -129,6 +130,16 @@ module.exports = {
         // Perspective utility for 3D effect
         ".perspective-150rem": {
           perspective: "150rem",
+        },
+
+        '.font-condensed': {
+          fontStretch: 'condensed',
+        },
+        '.font-expanded': {
+          fontStretch: 'expanded',
+        },
+        '.font-normal-width': {
+          fontStretch: 'normal',
         },
       });
     }),

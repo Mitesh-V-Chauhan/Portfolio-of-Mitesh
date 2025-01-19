@@ -110,7 +110,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="fixed z-[1000] w-full px-20 py-3 font-['Neue_Montreal'] flex justify-between items-center backdrop-blur-md shadow-md">
+    <div className="fixed z-[1000] w-full px-20 py-3 font-montreal flex justify-between items-center backdrop-blur-md shadow-md">
       <div className="logo px-10 relative group">
       
         <img

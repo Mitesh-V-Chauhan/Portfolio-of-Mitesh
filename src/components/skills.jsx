@@ -15,9 +15,9 @@ const skills = () => {
   }
 
   return (
-    <div className="w-full py-20 rounded-bl-3xl rounded-br-3xl rounded-tl-3xl rounded-tr-3xl bg-[#FFDAB5] ">
+    <div className="w-full py-20 rounded-bl-3xl rounded-br-3xl rounded-tl-3xl rounded-tr-3xl bg-[#FFDAB5] font-montreal">
         <div className="w-full px-20 border-b-[1px] border-zinc-500 pb-10 flex">
-            <h1 className="text-7xl font-['Neue_Montreal'] text-black tracking-tight duration-300 ease-in-out hover:scale-110">Skills</h1>
+            <h1 className="text-7xl font-montreal text-black tracking-tight duration-300 ease-in-out hover:scale-110">Skills</h1>
         </div>
         <div className="px-20 py-10">
           <div className="cards w-full flex gap-10 mt-10">

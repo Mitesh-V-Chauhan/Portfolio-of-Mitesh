@@ -26,7 +26,7 @@ const Marquee = () => {
               initial={{x: 0}} 
               animate={{x: "-100%"}} 
               transition={{ease: "linear", repeat: Infinity, duration: 15}} 
-              className="text-[10vw] sm:text-[12vw] md:text-[17vw] leading-none font-['Founders_Grotesk_X-Condensed'] -mb-10 pt-10 font-semibold pr-20 hover:text-[#CBA35C] ease-in-out"
+              className="text-[10vw] sm:text-[12vw] md:text-[17vw] leading-none font-grotesk -mb-10 pt-10 font-semibold pr-20 hover:text-[#CBA35C] ease-in-out"
             >
               LEARN·CODE·DEVELOPE
             </motion.h1>
@@ -34,7 +34,7 @@ const Marquee = () => {
               initial={{x: 0}} 
               animate={{x: "-100%"}} 
               transition={{ease: "linear", repeat: Infinity, duration: 15}} 
-              className="text-[10vw] sm:text-[12vw] md:text-[17vw] leading-none font-['Founders_Grotesk_X-Condensed'] -mb-10 pt-10 font-semibold pr-20 hover:text-[#CBA35C] ease-in-out"
+              className="text-[10vw] sm:text-[12vw] md:text-[17vw] leading-none font-grotesk -mb-10 pt-10 font-semibold pr-20 hover:text-[#CBA35C] ease-in-out"
             >
               LEARN·CODE·DEVELOPE
             </motion.h1>
