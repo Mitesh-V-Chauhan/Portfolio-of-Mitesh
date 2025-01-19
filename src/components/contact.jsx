@@ -22,6 +22,8 @@ const contact = () => {
         <div className="heading">
             <h1 className="text-[10vw] uppercase leading-none -mb-10 hover:text-orange-300 hover:scale-110" style={{ fontWeight: 550 }}>HERE</h1>
         </div>
+        <br />
+        <br />
         <div className="flex flex-col gap-5  pt-30 font-montreal">
       {/* Instagram */}
       <a
